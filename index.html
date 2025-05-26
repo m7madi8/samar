@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samar Ammar Interior Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="assets/img/home/avatar_beige.png" sizes="128x128" type="image/png">
+    
+</head>
+<body>
+
+  <div id="content">
+   <header id="header1-unique" class="header">
+    <img src="home/avatar_beige.png" alt="Samar Ammar Interior Designer Logo" id="logo" loading="lazy"/>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    
+    </header>
+    <div id="overlay">
+        <div id="menu">
+            <ul>
+                <li><a href="#home" class="menu-link">home</a></li>
+                <li><a href="#our-vision" class="menu-link">about</a></li>
+                <li><a href="#interior-design" class="menu-link">interior design</a></li>
+                <li><a href="#landscape" class="menu-link">landscape</a></li>
+                <li><a href="#engineering-supervision" class="menu-link">Exterior design </a></li>
+                <li><a href="#map2" class="menu-link">our projects</a></li>
+                <li><a href="#contact-us" class="menu-link">contact us</a></li>
+            </ul>
+        </div>
+    </div>
+    <section class="home" id="home">
+  <img src="home/avatar_white.png" alt="Samar Ammar Interior Designer Logo" class="slide-in-left" />
+</section>
+
+<section id="our-vision" class="slide-in-left"  data-animate="fade-up">
+  <div class="container">
+    <div class="left-side">
+      <h2 class="section-title">About Us</h2>
+      <p class="section-description">
+        We are an engineering office specialized in architectural design and engineering supervision, providing innovative solutions for residential and commercial projects.
+      </p>
+      <img src="home/samar.jpg" alt="Vision Image" class="vision-image" />
+    </div>
+
+    <div class="right-side">
+      <h3 class="vision-subtitle">CEO Message</h3>
+      <p class="vision-text">
+        We believe that architecture is not just about buildings, but about experiences. Every space we design tells a story, carefully blending aesthetics with function. Our team ensures each design improves quality of life, respects the environment, and reflects the identity of its users.
+      </p>
+    </div>
+
+    <div class="video-placeholder">
+      <!-- هنا حتضيف الفيديو لاحقاً -->
+    </div>
+  </div>
+</section>
+
+  
+    <section id="interior-design" class="slide-in-left"  data-animate="fade-up">
+        <div class="service-background"></div>
+        <div class="service-content" id="interior11">
+            <h2>Interior Design</h2>
+            <p>Interior designers make interior spaces functional, safe, and beautiful by defining space requirements and choosing basic and decorative elements, such as colors, lighting, and materials. They must be able to draw, read and edit schemes.</p>
+            <button  onclick="window.open('index2.html#interiorphotos', '_blank', 'noopener')">See More</button>
+            <button onclick="window.open('index-interior.html', '_blank')">Request Service</button>
+        </div>
+    </section>
+    
+    <section id="landscape" class="slide-in-left"  data-animate="fade-up">
+        <div class="service-background"></div>
+        <div class="service-content" id="landscape11">
+            <h2>Landscape</h2>
+            <p>Sometimes the most brilliant ideas are the simplest, and the brilliance of this idea is designing the landscape as an integral part of the villa, capable of being located on any plot that may not actually have any decent views to begin with.</p>
+            <button onclick="window.open('index2.html#landscapephotos', '_blank', 'noopener')">See More</button>
+            <button onclick="window.open('index-landscape.html', '_blank')">Request Service</button>
+        </div>
+    </section>
+    
+    <section id="engineering-supervision" class="slide-in-left" data-animate="fade-up">
+        <div class="service-background"></div>
+        <div class="service-content" id="eng11">
+            <h2>Exterior design</h2>
+            <p>Create functional and visually appealing building exteriors by selecting materials, colors, and textures that blend with the surroundings. They focus on durability, aesthetics, and harmony with the environment.</p>
+            <button onclick="window.open('index2.html#exteriorphotos', '_blank', 'noopener')">See More</button>
+            <button onclick="window.open('index-exterior.html', '_blank')">Request Service</button>
+        </div>
+    </section>
+    
+    <section  class="fade-in " id="map2" data-animate="fade-up">
+        <h2>Our Projects </h2>  
+        <div class="stats-container" id="project-counter">
+  <div class="stat-box" data-aos="fade-up" data-aos-delay="100">
+    <h3 class="counter-number" data-target="134">134</h3>
+    <p class="counter-label">Total Projects</p>
+  </div>
+  <div class="stat-box" data-aos="fade-up" data-aos-delay="200">
+    <h3 class="counter-number" data-target="92">92</h3>
+    <p class="counter-label">Completed Projects</p>
+  </div>
+  <div class="stat-box" data-aos="fade-up" data-aos-delay="300">
+    <h3 class="counter-number" data-target="58">175</h3>
+    <p class="counter-label">Happy Clients</p>
+  </div>
+  <div class="stat-box" data-aos="fade-up" data-aos-delay="400">
+    <h3 class="counter-number" data-target="10">8</h3>
+    <p class="counter-label">Years of Experience</p>
+  </div>
+</div>
+
+      <div class="mb-5" data-aos="fade-up" data-aos-delay="200">
+        <iframe
+          style="border:0; width: 100%; height: 400px;"
+          src="https://maps.google.com/maps?q=31.92125519954263,35.20902528900293&hl=ar&z=16&output=embed"
+          frameborder="0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      
+      
+    </section>
+   
+  
+    <section class="contact-section" id="contact-us" data-animate="fade-up">
+        <div class="overlay"></div>
+        <div class="content slide-in-left">
+            <div class="logo slide-in-left">
+                <img src="home/avatar_beige.png" alt="Samar Ammar Interior Designer Logo" />
+                <div id="icons" >
+                    <a href="https://wa.me/+972569126200" target="_blank"> <i class='bx bxl-whatsapp'></i></a>
+                    <a href="https://www.facebook.com/share/18o8oJW7R9/" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                    <a href="https://www.instagram.com/samarammarinterior?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class='bx bxl-instagram'></i></a>
+                </div>
+                <small id="allrights">All rights reserved to S.A. Interiors | By <a target="_blank"
+                     href="https://m7madi8.github.io/Mohammad/" rel="nofollow">Mohammad Hroub</a></small>
+            </div>
+            <div class="contact-info">
+                <h2>Contact Us</h2>
+                <p>📞 +972 56-912-6200</p>
+                <p>📧 sam.ammar1992@gmail.com</p>
+                <p translate="no">📸 samarammarinterior</p>
+                <p>📍 Palestine/Ramallah/Ahlia College Street/Al-Asaad Building/3rd Floor</p>
+            </div>
+            <div class="contact-form">
+                <h2>Write To Us</h2>
+                <form action="thankyou.html" method="post">
+                    <div class="input-group">
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <textarea placeholder="Message" required rows="5" cols="40"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+     <a href="booking.html" class="booking-icon" target="_blank" title="حجز موعد">
+    <i class='bx bx-calendar-check'></i>
+  </a>
+    <a href="https://wa.me/+972569126200" class="whatsapp-icon" target="_blank">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+  </div>
+
+     <script src="script.js"></script>
+   
+</body>
+</html>
